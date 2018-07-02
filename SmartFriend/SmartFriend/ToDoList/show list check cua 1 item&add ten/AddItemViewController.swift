@@ -45,11 +45,11 @@ class AddItemViewController: UITableViewController {
         if(from == "Add"){
             let item = ChecklistItem(text: textField.text!)
             delegate?.addItemViewController(controller: self, didFinishAddingItem: item)
-             DataModel.shared.save()
+            DataModel.shared.save()
         }else if(from == "Edit"){
             let item = ChecklistItem(text: textField.text!)
             delegate?.editItemViewController(controller: self, item: item, index: editIndex!)
-             DataModel.shared.save()
+            DataModel.shared.save()
         }
     }
     

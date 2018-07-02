@@ -28,7 +28,7 @@ class ChecklistItem: NSObject, NSCoding {
             self.checked = true
         }
     }
-        
+    
     required convenience init(coder decoder: NSCoder) {
         let checked = decoder.decodeBool(forKey: "checked")
         let text = decoder.decodeObject(forKey: "text") as? String

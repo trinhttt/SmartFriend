@@ -1,0 +1,177 @@
+
+/* Class = "UIButton"; normalTitle = "Game khác"; ObjectID = "10N-tk-P8B"; */
+"10N-tk-P8B.normalTitle" = "Trò chơi khác";
+
+/* Class = "UILabel"; text = "Kết quả"; ObjectID = "29J-jd-0AM"; */
+"29J-jd-0AM.text" = "Kết quả";
+
+/* Class = "UILabel"; text = "100%"; ObjectID = "3Wb-LX-6Hn"; */
+"3Wb-LX-6Hn.text" = "100%";
+
+/* Class = "UILabel"; text = "emptyCell"; ObjectID = "3id-he-tZh"; */
+"3id-he-tZh.text" = "emptyCell";
+
+/* Class = "UILabel"; text = "NAME"; ObjectID = "79R-m2-QMv"; */
+"79R-m2-QMv.text" = "Tên";
+
+/* Class = "UINavigationController"; title = "naviController"; ObjectID = "7Hk-yq-SE1"; */
+"7Hk-yq-SE1.title" = "naviController";
+
+/* Class = "UIBarButtonItem"; title = "Cancel"; ObjectID = "8b1-qd-l90"; */
+"8b1-qd-l90.title" = "Huỷ";
+
+/* Class = "UIButton"; normalTitle = "LANGUAGE"; ObjectID = "8hG-ee-P1p"; */
+"8hG-ee-P1p.normalTitle" = "NGÔN NGỮ";
+
+/* Class = "UIButton"; normalTitle = "Chơi lại"; ObjectID = "8lI-I5-cDe"; */
+"8lI-I5-cDe.normalTitle" = "Chơi lại";
+
+/* Class = "UIButton"; normalTitle = "Game khác"; ObjectID = "98t-75-dr0"; */
+"98t-75-dr0.normalTitle" = "Trò chơi khác";
+
+/* Class = "UIButton"; normalTitle = "Game3"; ObjectID = "9Im-h3-Whb"; */
+"9Im-h3-Whb.normalTitle" = "TRÁI CÂY";
+
+/* Class = "UIButton"; normalTitle = "START"; ObjectID = "9Ox-AA-SJF"; */
+"9Ox-AA-SJF.normalTitle" = "BẮT ĐẦU";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "ABP-bG-6rt"; */
+"ABP-bG-6rt.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "BQA-i9-bWt"; */
+"BQA-i9-bWt.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "English"; ObjectID = "CDh-gT-g0k"; */
+"CDh-gT-g0k.normalTitle" = "Tiếng Anh";
+
+/* Class = "UIButton"; normalTitle = "Game1"; ObjectID = "CcZ-L4-AEq"; */
+"CcZ-L4-AEq.normalTitle" = "Đĩa Xếp";
+
+/* Class = "UILabel"; text = "Điểm"; ObjectID = "Cgj-7y-1BZ"; */
+"Cgj-7y-1BZ.text" = "Điểm";
+
+/* Class = "UIButton"; normalTitle = "Chơi lại"; ObjectID = "FN2-lP-pGc"; */
+"FN2-lP-pGc.normalTitle" = "Chơi lại";
+
+/* Class = "UITextField"; placeholder = "Name of the item"; ObjectID = "HVh-pZ-GJL"; */
+"HVh-pZ-GJL.placeholder" = "Name of the item";
+
+/* Class = "UIButton"; normalTitle = "Chơi lại"; ObjectID = "HXR-fi-LIU"; */
+"HXR-fi-LIU.normalTitle" = "Chơi lại";
+
+/* Class = "UINavigationItem"; title = "CheckLists"; ObjectID = "Hp6-8c-2xH"; */
+"Hp6-8c-2xH.title" = "CheckLists";
+
+/* Class = "UIButton"; normalTitle = "Set your time"; ObjectID = "IHn-Mx-xtG"; */
+"IHn-Mx-xtG.normalTitle" = "Set your time";
+
+/* Class = "UILabel"; text = "Điểm"; ObjectID = "IKv-ph-Zdw"; */
+"IKv-ph-Zdw.text" = "Điểm";
+
+/* Class = "UILabel"; text = "Chọn ngôn ngữ"; ObjectID = "JW2-nq-0wa"; */
+"JW2-nq-0wa.text" = "Thay Đổi Ngôn Ngữ";
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "Kf5-tW-X3E"; */
+"Kf5-tW-X3E.title" = "Mục";
+
+/* Class = "UILabel"; text = "Kết quả"; ObjectID = "LPz-rQ-RqA"; */
+"LPz-rQ-RqA.text" = "Kết quả";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "MFO-XK-KDS"; */
+"MFO-XK-KDS.text" = "Tên";
+
+/* Class = "UILabel"; text = "Điểm"; ObjectID = "NE9-ME-hxO"; */
+"NE9-ME-hxO.text" = "Điểm";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "PBV-4f-oUj"; */
+"PBV-4f-oUj.text" = "Label";
+
+/* Class = "UIViewController"; title = "Self Reward"; ObjectID = "Qd5-nu-IIo"; */
+"Qd5-nu-IIo.title" = "Giải Trí";
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "R5X-UQ-cZY"; */
+"R5X-UQ-cZY.title" = "Mục";
+
+/* Class = "UITextField"; placeholder = "CheckList"; ObjectID = "U5u-ef-NOO"; */
+"U5u-ef-NOO.placeholder" = "Danh Mục";
+
+/* Class = "UIButton"; normalTitle = "Game2"; ObjectID = "VhZ-Qd-i6d"; */
+"VhZ-Qd-i6d.normalTitle" = "Lật Hình";
+
+/* Class = "UIButton"; normalTitle = "Vietnamese"; ObjectID = "VyL-mA-qyg"; */
+"VyL-mA-qyg.normalTitle" = "Tiếng Việt";
+
+/* Class = "UILabel"; text = "Your time is running out..."; ObjectID = "W4W-4c-b6J"; */
+"W4W-4c-b6J.text" = "Thời gian của bạn sắp hết...";
+
+/* Class = "UITabBarItem"; title = "To-do List"; ObjectID = "Y2m-cx-tHD"; */
+"Y2m-cx-tHD.title" = "Danh sách công việc";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Yhs-cC-c2H"; */
+"Yhs-cC-c2H.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Trò chơi khác"; ObjectID = "Zbm-vb-RRO"; */
+"Zbm-vb-RRO.normalTitle" = "Trò chơi khác";
+
+/* Class = "UILabel"; text = "🏆"; ObjectID = "at2-3K-SLp"; */
+"at2-3K-SLp.text" = "🏆";
+
+/* Class = "UIBarButtonItem"; title = "Done"; ObjectID = "bPn-Py-TdP"; */
+"bPn-Py-TdP.title" = "Xong";
+
+/* Class = "UILabel"; text = "Flips: 10"; ObjectID = "cH8-ow-sDd"; */
+"cH8-ow-sDd.text" = "Lật: 10";
+
+/* Class = "UITabBarItem"; title = "Alarm"; ObjectID = "dTt-mL-6i3"; */
+"dTt-mL-6i3.title" = "Đồng Hồ";
+
+/* Class = "UILabel"; text = "Add CheckList"; ObjectID = "dzm-Yp-Zw1"; */
+"dzm-Yp-Zw1.text" = "Thêm một mục";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "ecI-bF-hcc"; */
+"ecI-bF-hcc.normalTitle" = "Huỷ";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "f3y-fF-YuJ"; */
+"f3y-fF-YuJ.text" = "Giấy phép Challenge (shallenge) Bản quyền (c) 2018 Team TT Permission được cấp miễn phí cho bất kỳ người nào có bản sao phần mềm này và các tệp tài liệu liên quan ('Phần mềm'), để giải quyết Phần mềm mà không bị hạn chế , bao gồm nhưng không giới hạn quyền sử dụng, sao chép, sửa đổi, hợp nhất, xuất bản, phân phối, cấp phép phụ, và / hoặc bán các bản sao của Phần mềm, và cho phép những người mà Phần mềm được hỗ trợ, tuân theo các điều kiện sau: thông báo bản quyền và thông báo quyền này sẽ được bao gồm trong tất cả các bản sao hoặc một phần đáng kể của Phần mềm. KHÔNG CÓ SỰ KIỆN BẤT K CL KHIẾU NẠI, THIỆT HẠI HOẶC TRÁCH NHIỆM KHÁC, BẤT CỨ HÀNH ĐỘNG HỢP ĐỒNG, THAY ĐỔI HOẶC KHÁC, PHÁT HÀNH TỪ, RA O F HOẶC KẾT NỐI VỚI PHẦN MỀM HOẶC SỬ DỤNG HOẶC CÁC BIỆN PHÁP KHÁC TRONG PHẦN MÊM. ";
+
+/* Class = "UIButton"; normalTitle = "ABOUT"; ObjectID = "fIU-Pu-QDZ"; */
+"fIU-Pu-QDZ.normalTitle" = "THÔNG TIN KHÁC";
+
+/* Class = "UILabel"; text = "✔️"; ObjectID = "hCx-TF-RUs"; */
+"hCx-TF-RUs.text" = "✔️";
+
+/* Class = "UINavigationItem"; title = "Checklist"; ObjectID = "mmR-tq-kju"; */
+"mmR-tq-kju.title" = "Danh Mục";
+
+/* Class = "UILabel"; text = "0/0"; ObjectID = "nUc-18-R5R"; */
+"nUc-18-R5R.text" = "0/0";
+
+/* Class = "UITabBarItem"; title = "Self Reward"; ObjectID = "nos-c8-sJn"; */
+"nos-c8-sJn.title" = "Giải Trí";
+
+/* Class = "UIButton"; normalTitle = "HELP"; ObjectID = "nr2-nL-IoX"; */
+"nr2-nL-IoX.normalTitle" = "TRỢ GIÚP";
+
+/* Class = "UILabel"; text = "100%"; ObjectID = "o2K-9k-EAt"; */
+"o2K-9k-EAt.text" = "100%";
+
+/* Class = "UILabel"; text = "Kết quả"; ObjectID = "q1o-dQ-cgc"; */
+"q1o-dQ-cgc.text" = "Kết quả";
+
+/* Class = "UINavigationItem"; title = "Add Item"; ObjectID = "sRT-zX-wqD"; */
+"sRT-zX-wqD.title" = "Thêm mục";
+
+/* Class = "UILabel"; text = "name"; ObjectID = "tmM-cZ-VWP"; */
+"tmM-cZ-VWP.text" = "Tên";
+
+/* Class = "UILabel"; text = "100%"; ObjectID = "xCH-mW-tF3"; */
+"xCH-mW-tF3.text" = "100%";
+
+/* Class = "UISegmentedControl"; za1-Yl-KWf.segmentTitles[0] = "High"; ObjectID = "za1-Yl-KWf"; */
+"za1-Yl-KWf.segmentTitles[0]" = "Cao";
+
+/* Class = "UISegmentedControl"; za1-Yl-KWf.segmentTitles[1] = "Normal"; ObjectID = "za1-Yl-KWf"; */
+"za1-Yl-KWf.segmentTitles[1]" = "Bình Thường";
+
+/* Class = "UISegmentedControl"; za1-Yl-KWf.segmentTitles[2] = "Week"; ObjectID = "za1-Yl-KWf"; */
+"za1-Yl-KWf.segmentTitles[2]" = "Hàng tuần";

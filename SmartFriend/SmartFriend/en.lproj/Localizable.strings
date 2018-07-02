@@ -1,0 +1,57 @@
+/* 
+  Localizable.strings
+  SmartFriend
+
+  Created by Hoang Thao on 7/2/18.
+  Copyright © 2018 Trinh Thai. All rights reserved.
+*/
+"txtAbout"="SmartFriend is an application that helps users manage their work lists and their working time more easily, and also supports fast-track user experience in the application. 3 main parts: Checklist of Jobs, Time Management to complete a job, Entertainment to reduce stress or reward yourself when finished. ";
+"txtHelp"="The Challenge License (shallenge)  Copyright (c) 2018 Team TT Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the 'Software'), to deal in the Software without restriction, including without limitation the rightsto use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software isfurnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. THE SOFTWARE IS PROVIDED ';AS IS', WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.";
+"Time-setting  is on."="Time-setting  is on.";
+"Time-setting is off."="Time-setting is off.";
+"txtHight"="Hight";
+
+"Confirm"="Confirm";
+"Timeout"="Timeout";
+"Minute"="Minute";
+"Minutes"="Minutes";
+"Second"="Second";
+"Seconds"="Seconds";
+
+"Add to favorites"="Add to favorites";
+"Remove from favorites"="Remove from favorites";
+"timerDone"="timerDone";
+"Something went wrong!"="Something went wrong!";
+"Adding a new item has failed"="Adding a new item has failed";
+"Please enter a name."="Please enter a name.";
+"Fetch Request failed."="Fetch Request failed.";
+"Add a new item"="Add a new item";
+"Item Name"="Item Name";
+"Studying"="Studying";
+"Timework of machines"="Timework of machines";
+"Doing exercise"="Doing exercise";
+"Cooking"="Cooking";
+"Cancel"="Cancel";
+"Type of items does not exist!"="Type of items does not exist!";
+"DeviceCell"="DeviceCell";
+"ShowMicrowaveDetail"="ShowMicrowaveDetail";
+"Are you sure you want to delete"="Are you sure you want to delete";
+"Confirm"="Confirm";
+"Core:"="Core:";
+"Flips:"="Flips:";
+"emptyCell"="emptyCell";
+"checklistCell"="checklistCell";
+"(No item)"="(No item)";
+"All done!!"="All done!!";
+"ShowChecklist"="ShowChecklist";
+"What do you wanna do with this checklist?"="What do you wanna do with this checklist?";
+"Rename"="Rename";
+"Rename Checklist"="Rename Checklist";
+"Delete"="Delete";
+"Enter name of checklist"="Enter name of checklist" ;
+"AddItem"="AddItem";
+"Add"="Add";
+"EditItem" ="EditItem" ;
+"Edit"="Edit";
+"ChecklistItem"="ChecklistItem";
+

@@ -15,12 +15,12 @@ class AddCheckListViewController: UITableViewController, UITextFieldDelegate, UI
     @IBOutlet var tokenCollectionView: UICollectionView!
     
     var selectedToken = 0
-    let tokens = ["cannon", "car", "cat", "dog", "hat", "horse", "iron", "money", "ship", "shoe", "thimble", "wheelbarrow"]
+    let tokens = ["thimble", "car", "cat", "dog", "hat", "horse", "shoe", "ship", "iron", "cannon", "wheelbarrow","money"]
     
     /// append 1 checklist vao danh sach
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         if indexPath.section == 2 && indexPath.row == 0 {
-            let name = nameTextField.text!.isEmpty ? "CheckList" : nameTextField.text!
+            let name = nameTextField.text!.isEmpty ? NSLocalizedString("Enter name of checklist" , comment: ""): nameTextField.text!
             let checklist = Checklist(name: name,items: [ChecklistItem](), iconName: Token(rawValue: tokens[selectedToken])!)
             DataModel.shared.lists.append(checklist)
             DataModel.shared.save()
@@ -63,7 +63,7 @@ class AddCheckListViewController: UITableViewController, UITextFieldDelegate, UI
         let isSelected = indexPath.item == selectedToken
         let tokenName = isSelected ? tokens[indexPath.item] + "_filled" : tokens[indexPath.item]
         tokenCell.tokenView.image = UIImage(named: tokenName)!.withRenderingMode(.alwaysTemplate)
-        let affineTransform = isSelected ? CGAffineTransform(scaleX: 1.2, y: 1.2) : CGAffineTransform.identity
+        let affineTransform = isSelected ? CGAffineTransform(scaleX: 1.3, y: 1.3) : CGAffineTransform.identity
         UIView.animate(withDuration: 0.1, animations: {
             tokenCell.transform = affineTransform
         })

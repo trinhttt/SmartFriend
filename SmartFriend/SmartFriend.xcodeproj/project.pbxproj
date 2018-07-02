@@ -11,6 +11,15 @@
 		0E3DB53620E6882B00A3B809 /* AddCheckListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3DB53520E6882B00A3B809 /* AddCheckListViewController.swift */; };
 		0E3DB53C20E6888600A3B809 /* TokenCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3DB53B20E6888600A3B809 /* TokenCollectionViewCell.swift */; };
 		0E3DB53F20E68EBF00A3B809 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3DB53E20E68EBF00A3B809 /* ListViewController.swift */; };
+		0E52673220E87F2800B60A4A /* TimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E52673120E87F2800B60A4A /* TimeViewController.swift */; };
+		0E52673420E87F3500B60A4A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E52673320E87F3500B60A4A /* ViewController.swift */; };
+		0E52673620E87F6400B60A4A /* Device_or_DoworkTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E52673520E87F6400B60A4A /* Device_or_DoworkTableViewController.swift */; };
+		0E52673820E87F8A00B60A4A /* PersistenceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E52673720E87F8A00B60A4A /* PersistenceService.swift */; };
+		0E52673A20E87FA500B60A4A /* Device_or_DoworkDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E52673920E87FA500B60A4A /* Device_or_DoworkDataSource.swift */; };
+		0E52673E20E87FC700B60A4A /* TimeClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E52673D20E87FC700B60A4A /* TimeClass.swift */; };
+		0E52674020E880BE00B60A4A /* Device_or_DoworkTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E52673F20E880BE00B60A4A /* Device_or_DoworkTableViewCell.swift */; };
+		0E52674220E8819000B60A4A /* Device_or_Dowork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E52674120E8819000B60A4A /* Device_or_Dowork.swift */; };
+		0E52674820E8E73600B60A4A /* FirstLaunch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E52674720E8E73600B60A4A /* FirstLaunch.swift */; };
 		0E96995D20E32F0900E124D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E96995C20E32F0900E124D8 /* AppDelegate.swift */; };
 		0E96996220E32F0900E124D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E96996020E32F0900E124D8 /* Main.storyboard */; };
 		0E96996520E32F0900E124D8 /* SmartFriend.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0E96996320E32F0900E124D8 /* SmartFriend.xcdatamodeld */; };
@@ -21,6 +30,23 @@
 		0E96998420E34DA600E124D8 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E96998320E34DA600E124D8 /* DataModel.swift */; };
 		0E96998620E34DBA00E124D8 /* Checklist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E96998520E34DBA00E124D8 /* Checklist.swift */; };
 		0E96998820E34DCE00E124D8 /* ChecklistItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E96998720E34DCE00E124D8 /* ChecklistItem.swift */; };
+		0E96998C20E3D91B00E124D8 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E96998B20E3D91B00E124D8 /* QuestionViewController.swift */; };
+		0E96998E20E3D92B00E124D8 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E96998D20E3D92B00E124D8 /* ResultViewController.swift */; };
+		0E96999020E3D94400E124D8 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E96998F20E3D94400E124D8 /* Question.swift */; };
+		0E96999320E3D97100E124D8 /* QuestionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E96999220E3D97100E124D8 /* QuestionManager.swift */; };
+		0E96999520E3D99900E124D8 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E96999420E3D99900E124D8 /* Card.swift */; };
+		0E96999720E3D9A500E124D8 /* Concentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E96999620E3D9A500E124D8 /* Concentration.swift */; };
+		0E96999B20E3D9CB00E124D8 /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E96999A20E3D9CB00E124D8 /* CardViewController.swift */; };
+		0E96999D20E3E06C00E124D8 /* Seft.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E96999C20E3E06C00E124D8 /* Seft.swift */; };
+		C9F8A67420E3FE65000B8BCC /* ChooseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F8A67320E3FE65000B8BCC /* ChooseViewController.swift */; };
+		C9FC7D8520E908E7000C37E9 /* reslutCarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FC7D8420E908E7000C37E9 /* reslutCarViewController.swift */; };
+		C9FC7D8720E90A61000C37E9 /* ResultChooseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FC7D8620E90A61000C37E9 /* ResultChooseViewController.swift */; };
+		C9FC7D8E20E91687000C37E9 /* ControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FC7D8D20E91687000C37E9 /* ControlViewController.swift */; };
+		C9FC7D9020E918A3000C37E9 /* LanguageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FC7D8F20E918A3000C37E9 /* LanguageViewController.swift */; };
+		C9FC7D9220E936CB000C37E9 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FC7D9120E936CB000C37E9 /* AboutViewController.swift */; };
+		C9FC7D9420E936E9000C37E9 /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FC7D9320E936E9000C37E9 /* HelpViewController.swift */; };
+		C9FC7D9920E93C5E000C37E9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C9FC7D9B20E93C5E000C37E9 /* InfoPlist.strings */; };
+		C9FC7DA120E948F1000C37E9 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C9FC7DA320E948F1000C37E9 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +54,15 @@
 		0E3DB53520E6882B00A3B809 /* AddCheckListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCheckListViewController.swift; sourceTree = "<group>"; };
 		0E3DB53B20E6888600A3B809 /* TokenCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenCollectionViewCell.swift; sourceTree = "<group>"; };
 		0E3DB53E20E68EBF00A3B809 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		0E52673120E87F2800B60A4A /* TimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeViewController.swift; sourceTree = "<group>"; };
+		0E52673320E87F3500B60A4A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0E52673520E87F6400B60A4A /* Device_or_DoworkTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Device_or_DoworkTableViewController.swift; sourceTree = "<group>"; };
+		0E52673720E87F8A00B60A4A /* PersistenceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceService.swift; sourceTree = "<group>"; };
+		0E52673920E87FA500B60A4A /* Device_or_DoworkDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Device_or_DoworkDataSource.swift; sourceTree = "<group>"; };
+		0E52673D20E87FC700B60A4A /* TimeClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeClass.swift; sourceTree = "<group>"; };
+		0E52673F20E880BE00B60A4A /* Device_or_DoworkTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Device_or_DoworkTableViewCell.swift; sourceTree = "<group>"; };
+		0E52674120E8819000B60A4A /* Device_or_Dowork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Device_or_Dowork.swift; sourceTree = "<group>"; };
+		0E52674720E8E73600B60A4A /* FirstLaunch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstLaunch.swift; sourceTree = "<group>"; };
 		0E96995920E32F0900E124D8 /* SmartFriend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartFriend.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E96995C20E32F0900E124D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0E96996120E32F0900E124D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -40,6 +75,28 @@
 		0E96998320E34DA600E124D8 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 		0E96998520E34DBA00E124D8 /* Checklist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checklist.swift; sourceTree = "<group>"; };
 		0E96998720E34DCE00E124D8 /* ChecklistItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistItem.swift; sourceTree = "<group>"; };
+		0E96998B20E3D91B00E124D8 /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		0E96998D20E3D92B00E124D8 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		0E96998F20E3D94400E124D8 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		0E96999220E3D97100E124D8 /* QuestionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionManager.swift; sourceTree = "<group>"; };
+		0E96999420E3D99900E124D8 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		0E96999620E3D9A500E124D8 /* Concentration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concentration.swift; sourceTree = "<group>"; };
+		0E96999A20E3D9CB00E124D8 /* CardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
+		0E96999C20E3E06C00E124D8 /* Seft.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Seft.swift; sourceTree = "<group>"; };
+		C9F8A67320E3FE65000B8BCC /* ChooseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseViewController.swift; sourceTree = "<group>"; };
+		C9FC7D8420E908E7000C37E9 /* reslutCarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reslutCarViewController.swift; sourceTree = "<group>"; };
+		C9FC7D8620E90A61000C37E9 /* ResultChooseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultChooseViewController.swift; sourceTree = "<group>"; };
+		C9FC7D8D20E91687000C37E9 /* ControlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlViewController.swift; sourceTree = "<group>"; };
+		C9FC7D8F20E918A3000C37E9 /* LanguageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageViewController.swift; sourceTree = "<group>"; };
+		C9FC7D9120E936CB000C37E9 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		C9FC7D9320E936E9000C37E9 /* HelpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
+		C9FC7D9520E93BB4000C37E9 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Main.strings; sourceTree = "<group>"; };
+		C9FC7D9620E93BB4000C37E9 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		C9FC7D9A20E93C5E000C37E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C9FC7D9C20E93C60000C37E9 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C9FC7D9E20E93DDC000C37E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		C9FC7DA220E948F1000C37E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C9FC7DA420E948F3000C37E9 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,12 +149,17 @@
 		0E96995B20E32F0900E124D8 /* SmartFriend */ = {
 			isa = PBXGroup;
 			children = (
+				C9FC7D8C20E9165B000C37E9 /* maincontrol */,
+				0EC3A30120E813E900F48FC9 /* Hurry up */,
+				0E96997220E3306300E124D8 /* MiniGame */,
 				0E96997120E3301F00E124D8 /* ToDoList */,
 				0E96995C20E32F0900E124D8 /* AppDelegate.swift */,
 				0E96996020E32F0900E124D8 /* Main.storyboard */,
 				0E96996620E32F0B00E124D8 /* Assets.xcassets */,
 				0E96996820E32F0B00E124D8 /* LaunchScreen.storyboard */,
 				0E96996B20E32F0B00E124D8 /* Info.plist */,
+				C9FC7D9B20E93C5E000C37E9 /* InfoPlist.strings */,
+				C9FC7DA320E948F1000C37E9 /* Localizable.strings */,
 				0E96996320E32F0900E124D8 /* SmartFriend.xcdatamodeld */,
 			);
 			path = SmartFriend;
@@ -113,6 +175,16 @@
 			path = ToDoList;
 			sourceTree = "<group>";
 		};
+		0E96997220E3306300E124D8 /* MiniGame */ = {
+			isa = PBXGroup;
+			children = (
+				C9F8A67220E3FDE6000B8BCC /* Man3 */,
+				0E96998A20E3D8F300E124D8 /* Man1 */,
+				0E96998920E3D8E800E124D8 /* Man2 */,
+			);
+			path = MiniGame;
+			sourceTree = "<group>";
+		};
 		0E96997520E34CA500E124D8 /* Object */ = {
 			isa = PBXGroup;
 			children = (
@@ -121,6 +193,65 @@
 				0E96998720E34DCE00E124D8 /* ChecklistItem.swift */,
 			);
 			path = Object;
+			sourceTree = "<group>";
+		};
+		0E96998920E3D8E800E124D8 /* Man2 */ = {
+			isa = PBXGroup;
+			children = (
+				0E96999420E3D99900E124D8 /* Card.swift */,
+				0E96999620E3D9A500E124D8 /* Concentration.swift */,
+				0E96999A20E3D9CB00E124D8 /* CardViewController.swift */,
+				C9FC7D8420E908E7000C37E9 /* reslutCarViewController.swift */,
+			);
+			path = Man2;
+			sourceTree = "<group>";
+		};
+		0E96998A20E3D8F300E124D8 /* Man1 */ = {
+			isa = PBXGroup;
+			children = (
+				0E96998B20E3D91B00E124D8 /* QuestionViewController.swift */,
+				0E96998D20E3D92B00E124D8 /* ResultViewController.swift */,
+				0E96998F20E3D94400E124D8 /* Question.swift */,
+				0E96999220E3D97100E124D8 /* QuestionManager.swift */,
+				0E96999C20E3E06C00E124D8 /* Seft.swift */,
+			);
+			path = Man1;
+			sourceTree = "<group>";
+		};
+		0EC3A30120E813E900F48FC9 /* Hurry up */ = {
+			isa = PBXGroup;
+			children = (
+				0E52673120E87F2800B60A4A /* TimeViewController.swift */,
+				0E52673320E87F3500B60A4A /* ViewController.swift */,
+				0E52673520E87F6400B60A4A /* Device_or_DoworkTableViewController.swift */,
+				0E52673720E87F8A00B60A4A /* PersistenceService.swift */,
+				0E52673F20E880BE00B60A4A /* Device_or_DoworkTableViewCell.swift */,
+				0E52673920E87FA500B60A4A /* Device_or_DoworkDataSource.swift */,
+				0E52673D20E87FC700B60A4A /* TimeClass.swift */,
+				0E52674120E8819000B60A4A /* Device_or_Dowork.swift */,
+				0E52674720E8E73600B60A4A /* FirstLaunch.swift */,
+			);
+			path = "Hurry up";
+			sourceTree = "<group>";
+		};
+		C9F8A67220E3FDE6000B8BCC /* Man3 */ = {
+			isa = PBXGroup;
+			children = (
+				C9F8A67320E3FE65000B8BCC /* ChooseViewController.swift */,
+				C9FC7D8620E90A61000C37E9 /* ResultChooseViewController.swift */,
+			);
+			path = Man3;
+			sourceTree = "<group>";
+		};
+		C9FC7D8C20E9165B000C37E9 /* maincontrol */ = {
+			isa = PBXGroup;
+			children = (
+				C9FC7D8D20E91687000C37E9 /* ControlViewController.swift */,
+				C9FC7D8F20E918A3000C37E9 /* LanguageViewController.swift */,
+				C9FC7D9120E936CB000C37E9 /* AboutViewController.swift */,
+				C9FC7D9320E936E9000C37E9 /* HelpViewController.swift */,
+			);
+			path = maincontrol;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,6 +296,7 @@
 			knownRegions = (
 				en,
 				Base,
+				vi,
 			);
 			mainGroup = 0E96995020E32F0900E124D8;
 			productRefGroup = 0E96995A20E32F0900E124D8 /* Products */;
@@ -181,7 +313,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9FC7DA120E948F1000C37E9 /* Localizable.strings in Resources */,
 				0E96996A20E32F0B00E124D8 /* LaunchScreen.storyboard in Resources */,
+				C9FC7D9920E93C5E000C37E9 /* InfoPlist.strings in Resources */,
 				0E96996720E32F0B00E124D8 /* Assets.xcassets in Resources */,
 				0E96996220E32F0900E124D8 /* Main.storyboard in Resources */,
 			);
@@ -194,17 +328,41 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E52673820E87F8A00B60A4A /* PersistenceService.swift in Sources */,
+				C9F8A67420E3FE65000B8BCC /* ChooseViewController.swift in Sources */,
+				0E52673620E87F6400B60A4A /* Device_or_DoworkTableViewController.swift in Sources */,
 				0E96996520E32F0900E124D8 /* SmartFriend.xcdatamodeld in Sources */,
+				0E96999320E3D97100E124D8 /* QuestionManager.swift in Sources */,
 				0E96998820E34DCE00E124D8 /* ChecklistItem.swift in Sources */,
+				C9FC7D8720E90A61000C37E9 /* ResultChooseViewController.swift in Sources */,
 				0E3DB53620E6882B00A3B809 /* AddCheckListViewController.swift in Sources */,
+				C9FC7D9020E918A3000C37E9 /* LanguageViewController.swift in Sources */,
+				0E52674220E8819000B60A4A /* Device_or_Dowork.swift in Sources */,
 				0E3DB53220E685BB00A3B809 /* CheckListCollectionViewCell.swift in Sources */,
 				0E96995D20E32F0900E124D8 /* AppDelegate.swift in Sources */,
+				0E52673420E87F3500B60A4A /* ViewController.swift in Sources */,
+				0E52674020E880BE00B60A4A /* Device_or_DoworkTableViewCell.swift in Sources */,
+				C9FC7D9420E936E9000C37E9 /* HelpViewController.swift in Sources */,
 				0E3DB53F20E68EBF00A3B809 /* ListViewController.swift in Sources */,
 				0E3DB53C20E6888600A3B809 /* TokenCollectionViewCell.swift in Sources */,
 				0E96998620E34DBA00E124D8 /* Checklist.swift in Sources */,
+				0E52674820E8E73600B60A4A /* FirstLaunch.swift in Sources */,
+				0E52673E20E87FC700B60A4A /* TimeClass.swift in Sources */,
+				C9FC7D8520E908E7000C37E9 /* reslutCarViewController.swift in Sources */,
+				0E96999720E3D9A500E124D8 /* Concentration.swift in Sources */,
 				0E96998020E34D6E00E124D8 /* AddItemViewController.swift in Sources */,
+				0E96999B20E3D9CB00E124D8 /* CardViewController.swift in Sources */,
+				C9FC7D8E20E91687000C37E9 /* ControlViewController.swift in Sources */,
+				0E96999520E3D99900E124D8 /* Card.swift in Sources */,
 				0E96998420E34DA600E124D8 /* DataModel.swift in Sources */,
+				C9FC7D9220E936CB000C37E9 /* AboutViewController.swift in Sources */,
+				0E96999020E3D94400E124D8 /* Question.swift in Sources */,
 				0E96997E20E34D5200E124D8 /* ChecklistViewController.swift in Sources */,
+				0E96999D20E3E06C00E124D8 /* Seft.swift in Sources */,
+				0E96998C20E3D91B00E124D8 /* QuestionViewController.swift in Sources */,
+				0E52673220E87F2800B60A4A /* TimeViewController.swift in Sources */,
+				0E52673A20E87FA500B60A4A /* Device_or_DoworkDataSource.swift in Sources */,
+				0E96998E20E3D92B00E124D8 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,6 +373,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				0E96996120E32F0900E124D8 /* Base */,
+				C9FC7D9520E93BB4000C37E9 /* vi */,
+				C9FC7D9E20E93DDC000C37E9 /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -223,8 +383,27 @@
 			isa = PBXVariantGroup;
 			children = (
 				0E96996920E32F0B00E124D8 /* Base */,
+				C9FC7D9620E93BB4000C37E9 /* vi */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		C9FC7D9B20E93C5E000C37E9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9FC7D9A20E93C5E000C37E9 /* en */,
+				C9FC7D9C20E93C60000C37E9 /* vi */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C9FC7DA320E948F1000C37E9 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9FC7DA220E948F1000C37E9 /* en */,
+				C9FC7DA420E948F3000C37E9 /* vi */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -234,6 +413,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -294,6 +474,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";

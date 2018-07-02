@@ -1,0 +1,55 @@
+/* 
+  Localizable.strings
+  SmartFriend
+
+  Created by Hoang Thao on 7/2/18.
+  Copyright © 2018 Trinh Thai. All rights reserved.
+*/
+"txtAbout"="SmartFriend là một ứng dụng hỗ trợ người dùng quản lý danh sách công việc và thời gian làm việc dễ dàng hơn. Bên cạnh đó còn hỗ trợ người dùng giải trí luyện nhanh tay lẹ mắt được tích hợp trong ứng dụng. Ứng dụng có 3 phần chủ yếu:Checklist danh sách các công việc, Quản lý thời gian để hoàn thành một công việc tốt nhất, Các game giải trí để giảm căng thẳng hoặc tự thưởng cho mình khi xong việc.";
+"txtHelp"="Giấy phép Challenge (shallenge) Bản quyền (c) 2018 Team TT Permission được cấp miễn phí cho bất kỳ người nào có bản sao phần mềm này và các tệp tài liệu liên quan ('Phần mềm'), để giải quyết Phần mềm mà không bị hạn chế , bao gồm nhưng không giới hạn quyền sử dụng, sao chép, sửa đổi, hợp nhất, xuất bản, phân phối, cấp phép phụ, và / hoặc bán các bản sao của Phần mềm, và cho phép những người mà Phần mềm được hỗ trợ, tuân theo các điều kiện sau: thông báo bản quyền và thông báo quyền này sẽ được bao gồm trong tất cả các bản sao hoặc một phần đáng kể của Phần mềm. KHÔNG CÓ SỰ KIỆN BẤT K CL KHIẾU NẠI, THIỆT HẠI HOẶC TRÁCH NHIỆM KHÁC, BẤT CỨ HÀNH ĐỘNG HỢP ĐỒNG, THAY ĐỔI HOẶC KHÁC, PHÁT HÀNH TỪ, RA O F HOẶC KẾT NỐI VỚI PHẦN MỀM HOẶC SỬ DỤNG HOẶC CÁC BIỆN PHÁP KHÁC TRONG PHẦN MÊM.";
+"Time-setting is off."="Đã bật cài đặt thời gian.";
+"Time-setting is off."="Đã tắt cài đặt thời gian.";
+
+"Confirm"="Kết thúc";
+"Timeout"="Hết giờ";
+"Minute"="Phút";
+"Minutes"="Phút";
+"Second"="Giây";
+"Seconds"="Giây";
+
+"Add to favorites"="Thêm vào mục yêu thích";
+"Remove from favorites"="Xóa khỏi mục yêu thích";
+"timerDone"="Hết giờ";
+"Something went wrong!"="Đã xảy ra lỗi!";
+"Adding a new item has failed"="Thêm một mục mới không thành công";
+"Please enter a name."="Vui lòng nhập tên.";
+"Fetch Request failed."="Yêu cầu tìm nạp không thành công.";
+"Add a new item"="Thêm mục mới";
+"Item Name"= "Tên mục";
+"Studying"="Học tập";
+"Timework of machines"="Thời gian của máy";
+"Doing exercise"="Làm bài tập";
+"Cooking"="Nấu nướng";
+"Cancel"="Huỷ";
+"Type of items does not exist!"="Loại mục không tồn tại!";
+"DeviceCell"="Thiết bị";
+"ShowMicrowaveDetail"="Hiển thị chi tiết";
+"Are you sure you want to delete"="Bạn có chắc chắn muốn xóa";
+"Confirm"="Hoàn Thành";
+"Core:"="Điểm:";
+"Flips:"="Lật:";
+"emptyCell"="Rỗng";
+"checklistCell"="Kiểm tra mục";
+"(No item)"="(Rỗng)";
+"All done!!"="Hoàn Thành Tất Cả!!";
+"ShowChecklist"="Hiển thị danh sách";
+"What do you wanna do with this checklist?"="Bạn muốn làm gì với danh sách kiểm tra này?";
+"Rename"="Đổi tên";
+"Rename Checklist"="Đổi tên mục";
+"Delete"="Xoá";
+"Enter name of checklist"="Nhập tên mục" ;
+"AddItem"="Thêm mục";
+"Add"="Thêm";
+"EditItem" ="Sửa mục" ;
+"Edit"="Sửa";
+"ChecklistItem"="Kiểm tra danh sách";

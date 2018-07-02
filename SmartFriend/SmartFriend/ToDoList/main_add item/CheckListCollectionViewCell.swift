@@ -11,5 +11,6 @@ import UIKit
 class CheckListCollectionViewCell: UICollectionViewCell {
     @IBOutlet var tokenView: UIImageView!
     @IBOutlet var nameLabel: UILabel!
+    @IBOutlet var detailTextLabel: UILabel!
     
 }

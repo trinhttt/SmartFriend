@@ -1,4 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14135" systemVersion="17F77" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Cook" representedClassName=".Cook" parentEntity="Device" syncable="YES"/>
+    <entity name="Device" representedClassName=".Device" isAbstract="YES" syncable="YES">
+        <attribute name="image" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isFavorite" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="status" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="Exe" representedClassName=".Exe" parentEntity="Device" syncable="YES"/>
+    <entity name="Study" representedClassName=".Study" parentEntity="Device" syncable="YES"/>
+    <entity name="Time" representedClassName=".Time" parentEntity="Device" syncable="YES">
+        <attribute name="mode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="timer" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Device" positionX="-54" positionY="-9" width="128" height="105"/>
+        <element name="Time" positionX="-135" positionY="-138" width="128" height="75"/>
+        <element name="Study" positionX="-81" positionY="-36" width="128" height="45"/>
+        <element name="Cook" positionX="-72" positionY="-27" width="128" height="45"/>
+        <element name="Exe" positionX="-63" positionY="-18" width="128" height="45"/>
+    </elements>
 </model>

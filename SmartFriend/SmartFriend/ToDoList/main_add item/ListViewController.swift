@@ -43,6 +43,19 @@ class ListViewController: UIViewController, UICollectionViewDataSource, UICollec
             let checklistCell = collectionView.dequeueReusableCell(withReuseIdentifier: "checklistCell", for: indexPath) as! CheckListCollectionViewCell
             let checklist = DataModel.shared.lists[indexPath.item-1]
             checklistCell.nameLabel.text = checklist.name
+            //
+            var detailText: String
+            
+            if(checklist.items.count == 0){
+                detailText = "(No item)"
+            }else if(checklist.countChecked() == checklist.items.count){
+                detailText = "All done!!"
+            }else{
+                detailText = "\(checklist.countChecked())"+"/"+"\(checklist.items.count)"
+                
+            }
+            checklistCell.detailTextLabel.text = detailText
+            //
             checklistCell.tokenView.image = UIImage(named: checklist.iconName.rawValue)?.withRenderingMode(.alwaysTemplate)
             return checklistCell
         }
@@ -53,7 +66,7 @@ class ListViewController: UIViewController, UICollectionViewDataSource, UICollec
         if indexPath.item == 0 {
             return CGSize(width: 375, height: 16)//dong rong de cang giua,1/10 cho nho :)
         } else {
-            return CGSize(width: 192, height: 154)
+            return CGSize(width: 192, height: 166)
         }
     }
     override func viewDidAppear(_ animated: Bool) {
@@ -64,21 +77,21 @@ class ListViewController: UIViewController, UICollectionViewDataSource, UICollec
         //            performSegue(withIdentifier: "ShowChecklist", sender: checklist)
         //        }
     }
-//    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-//        let index = DataModel.shared.indexOfSelectedChecklist
-//            let checklist = DataModel.shared.lists[index]
-//            performSegue(withIdentifier: "ShowChecklist", sender: checklist)
-//
-//    }
+    //    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+    //        let index = DataModel.shared.indexOfSelectedChecklist
+    //            let checklist = DataModel.shared.lists[index]
+    //            performSegue(withIdentifier: "ShowChecklist", sender: checklist)
+    //
+    //    }
     
-//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-//        if(segue.identifier == "ShowChecklist"){
-//            let targetController = segue.destination as! ChecklistViewController
-//            let indexPath = DataModel.shared.indexOfSelectedChecklist
-//            targetController.list = DataModel.shared.lists[(indexPath)]
-//        }
-//    }
-
+    //    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+    //        if(segue.identifier == "ShowChecklist"){
+    //            let targetController = segue.destination as! ChecklistViewController
+    //            let indexPath = DataModel.shared.indexOfSelectedChecklist
+    //            targetController.list = DataModel.shared.lists[(indexPath)]
+    //        }
+    //    }
+    
     
     /// Show alert & xu ly rename, delete item khi nhan giu~ 1item
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -100,7 +113,7 @@ class ListViewController: UIViewController, UICollectionViewDataSource, UICollec
             movingCell = checklistCollectionView.cellForItem(at: indexPath)
             UIView.animate(withDuration: 0.1, delay: 0.0, options: [.allowUserInteraction, .beginFromCurrentState], animations: {
                 self.movingCell?.alpha = 0.7
-                self.movingCell?.transform = CGAffineTransform(scaleX: 1.3, y: 1.3)
+                self.movingCell?.transform = CGAffineTransform(scaleX: 1.2, y: 1.2)
             }, completion: nil)
             checklistCollectionView.beginInteractiveMovementForItem(at: indexPath)
             ///
@@ -167,11 +180,9 @@ class ListViewController: UIViewController, UICollectionViewDataSource, UICollec
     
     override func viewDidLoad() {
         super.viewDidLoad()
-    
+        
         let longPressGestureRecognizer = UILongPressGestureRecognizer(target: self, action: #selector(handleLongPressGesture))
-        self.view.addGestureRecognizer(longPressGestureRecognizer)
-//        DataModel.shared.sortChecklists()
-
+        self.view.addGestureRecognizer(longPressGestureRecognizer)        
     }
     
     override func viewWillAppear(_ animated: Bool) {
