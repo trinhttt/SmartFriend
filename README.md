@@ -5,4 +5,5 @@ Besides, users can train their brain with fun mini-games integrated in the appli
 - Checklist tasks.
 - Time management.
 - 3 mini-games 
+
 In addition, the app also supports changing the language for the app (Vietnamese and English).
